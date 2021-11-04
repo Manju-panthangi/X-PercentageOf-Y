@@ -4,7 +4,7 @@ function percentageCalculator(){
 
     var ans = (x/100)*y;
 
-    document.getElementById("result").innerHTML = "50% of 70 is "+ans; 
+    document.getElementById("result").innerHTML = x+"% of "+y+" is "+ans; 
 
     console.log(ans)
 }
